@@ -645,9 +645,9 @@ require('lazy').setup({
         -- But for many setups, the LSP (`ts_ls`) will work just fine
         -- ts_ls = {},
         --
-        ts_ls = {
+        vtsls = {
           enabled = true,
-          filetypes = { 'typescript', 'typescriptreact', 'javascript', 'javascriptreact' },
+          filetypes = { 'typescript', 'typescriptreact', 'typescript.tsx', 'javascript', 'javascriptreact' },
         },
 
         cssls = {
