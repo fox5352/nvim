@@ -1,5 +1,5 @@
 function ColorMeImpressed()
-  local colors = { 'tokyonight-night', 'dark_flat', 'cyberdream', 'synthweave-transparent', 'NeoSolarized', 'ashen', 'one_monokai', 'fluoromachine' }
+  local colors = { 'tokyonight-night', 'dark_flat', 'cyberdream', 'synthweave-transparent', 'NeoSolarized', 'one_monokai', 'fluoromachine' }
 
   math.randomseed(os.time())
   local color = colors[math.random(1, #colors)]
