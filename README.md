@@ -15,9 +15,7 @@ mv ~/.cache/nvim{,.bak}
 * Clone the starter
 
 ```
-```
 git clone https://github.com/fox5352/nvim ~/.config/nvim
-```
 ```
 
 
